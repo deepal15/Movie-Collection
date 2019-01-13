@@ -26,6 +26,7 @@
 		02987F1D21EBAB9500157FFA /* TopRatedMovieOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02987F1C21EBAB9500157FFA /* TopRatedMovieOperation.swift */; };
 		02987F1F21EBABB600157FFA /* PopularMovieOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02987F1E21EBABB600157FFA /* PopularMovieOperation.swift */; };
 		02987F2121EBAF2E00157FFA /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02987F2021EBAF2E00157FFA /* CollectionViewCell.swift */; };
+		02987F2321EBC50900157FFA /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02987F2221EBC50900157FFA /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		02987F1C21EBAB9500157FFA /* TopRatedMovieOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopRatedMovieOperation.swift; sourceTree = "<group>"; };
 		02987F1E21EBABB600157FFA /* PopularMovieOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularMovieOperation.swift; sourceTree = "<group>"; };
 		02987F2021EBAF2E00157FFA /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		02987F2221EBC50900157FFA /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +133,7 @@
 			children = (
 				02987EE821EB7C6D00157FFA /* HomeViewController.swift */,
 				02987F2021EBAF2E00157FFA /* CollectionViewCell.swift */,
+				02987F2221EBC50900157FFA /* DetailViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -290,6 +293,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				02987EFE21EB7D4400157FFA /* Theme.swift in Sources */,
+				02987F2321EBC50900157FFA /* DetailViewController.swift in Sources */,
 				02987F1521EB8CE100157FFA /* DownloadManager.swift in Sources */,
 				02987F1021EB871800157FFA /* SearchMovieOperation.swift in Sources */,
 				02987F1321EB89D800157FFA /* MovieModel.swift in Sources */,

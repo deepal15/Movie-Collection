@@ -17,7 +17,7 @@ class CollectionViewCell: UICollectionViewCell {
         
         let size = contentView.systemLayoutSizeFitting(layoutAttributes.size)
         var frame = layoutAttributes.frame
-        frame.size.height = ceil(size.height + 60)
+        frame.size.height = ceil(size.height + 80)
         layoutAttributes.frame = frame
         return layoutAttributes
     }
